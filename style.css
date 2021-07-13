@@ -120,12 +120,15 @@ main,
 
 /* -------------------------top player end-----------------------*/
 
+
 hr{
     margin-top: 10px;
     margin-inline: 25px;
     background-color:#D1D1D1 ;
     color: #D1D1D1;
 }
+
+/* -------------------------top blog start------------------------ */
 
 .top-blog{
     padding: 25px;
@@ -163,13 +166,17 @@ hr{
 
 .blog-author{
     margin-top: 10px;
+    color: #a2a2a2;
 }
 
 .blog-author a{
     text-decoration: none;
 }
 
+/* ----------------------------top blog end -----------------------------*/
+
 /*---------------------------- main section ends ------------------------*/
+/* ----------------------------latest courses start---------------------------- */
 
 .latest-courses{
     margin-top: 25px;
@@ -200,11 +207,45 @@ hr{
 
 .course img{
     display: flex;
-
-    
 }
 
+.course-author{
+
+    padding: 7px 0;
+}
+
+.course-author a{
+    text-decoration: none;
+    color: #ED6B4F;
+}
 .course-template{
     justify-content: center;
 }
+
+.course-duration{
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    border-radius: 1rem;
+    padding: 5px 10px;
+}
+
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filled{
+    color: #FFC014;
+}
+
+.empty{
+    color: #aeaeae48;
+ }
+
+.rating{
+    color: #a2a2a2;
+}
+
+/* ------------------------------latest courses end------------------------------ */
 
